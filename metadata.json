@@ -1,0 +1,7 @@
+{
+  "name": "AURA ATELIER",
+  "description": "Artisanal accessories boutique featuring curated catalog, real-time inventory management, secure payment gateway, wishlist, and verified user reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
