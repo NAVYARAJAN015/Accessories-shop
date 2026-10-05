@@ -1,4 +1,10 @@
 import { Product, Review } from '../types';
+import heroImg from '../assets/images/hero_accessories_atelier_1791181418156.jpg';
+import chronographImg from '../assets/images/product_solstice_chronograph_1791181432028.jpg';
+import leatherToteImg from '../assets/images/product_tote_leather_bag_1791181442785.jpg';
+import sunglassesImg from '../assets/images/product_sunglasses_titanium_1791181454718.jpg';
+
+export { heroImg, chronographImg, leatherToteImg, sunglassesImg };
 
 export const INITIAL_PRODUCTS: Product[] = [
   {
@@ -22,7 +28,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       careGuide: 'Wipe with microfiber cloth. Avoid salt water contact with leather strap.'
     },
     images: [
-      '/src/assets/images/product_solstice_chronograph_1791181432028.jpg',
+      chronographImg,
     ],
     isBestseller: true,
     isNew: false,
@@ -51,7 +57,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       careGuide: 'Condition with natural leather cream twice annually.'
     },
     images: [
-      '/src/assets/images/product_tote_leather_bag_1791181442785.jpg',
+      leatherToteImg,
     ],
     isBestseller: true,
     isNew: false,
@@ -80,7 +86,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       careGuide: 'Rinse with tepid water and clean with provided silk cloth.'
     },
     images: [
-      '/src/assets/images/product_sunglasses_titanium_1791181454718.jpg',
+      sunglassesImg,
     ],
     isBestseller: false,
     isNew: true,
@@ -109,7 +115,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       careGuide: 'Store in airtight velvet pouch. Remove prior to swimming or bathing.'
     },
     images: [
-      '/src/assets/images/hero_accessories_atelier_1791181418156.jpg',
+      heroImg,
     ],
     isBestseller: true,
     isNew: false,
@@ -138,7 +144,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       careGuide: 'Water resistant natural finish. Buff lightly with cloth.'
     },
     images: [
-      '/src/assets/images/hero_accessories_atelier_1791181418156.jpg',
+      heroImg,
     ],
     isBestseller: false,
     isNew: true,
@@ -167,7 +173,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       careGuide: 'Dry clean only or gentle hand wash in cold water with silk detergent.'
     },
     images: [
-      '/src/assets/images/hero_accessories_atelier_1791181418156.jpg',
+      heroImg,
     ],
     isBestseller: false,
     isNew: false,
@@ -196,7 +202,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       careGuide: 'Keep away from strong magnetic fields (phones, induction stoves).'
     },
     images: [
-      '/src/assets/images/product_solstice_chronograph_1791181432028.jpg',
+      chronographImg,
     ],
     isBestseller: false,
     isNew: true,
@@ -225,7 +231,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       careGuide: 'Polish with lemon juice and baking soda or brass polishing cream.'
     },
     images: [
-      '/src/assets/images/hero_accessories_atelier_1791181418156.jpg',
+      heroImg,
     ],
     isBestseller: false,
     isNew: false,
@@ -254,7 +260,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       careGuide: 'Virtually indestructible. Wipe clean as desired.'
     },
     images: [
-      '/src/assets/images/product_sunglasses_titanium_1791181454718.jpg',
+      sunglassesImg,
     ],
     isBestseller: true,
     isNew: false,
@@ -283,7 +289,7 @@ export const INITIAL_PRODUCTS: Product[] = [
       careGuide: 'Wipe excess wax bloom with soft horsehair brush.'
     },
     images: [
-      '/src/assets/images/product_tote_leather_bag_1791181442785.jpg',
+      leatherToteImg,
     ],
     isBestseller: false,
     isNew: true,

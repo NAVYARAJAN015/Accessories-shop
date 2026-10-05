@@ -1,6 +1,7 @@
 import React from 'react';
 import { useStore } from '../context/StoreContext';
 import { ArrowRight, Sparkles, Shield, Clock, Award } from 'lucide-react';
+import { heroImg } from '../data/initialProducts';
 
 export const HeroBanner: React.FC = () => {
   const { setSelectedCategory, setActiveView } = useStore();
@@ -18,7 +19,7 @@ export const HeroBanner: React.FC = () => {
       {/* Background with measured contrast overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_accessories_atelier_1791181418156.jpg"
+          src={heroImg}
           alt="Aura Atelier luxury accessories craftsmanship flatlay"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center opacity-40 brightness-90 transform scale-105 transition-transform duration-1000 ease-out"
